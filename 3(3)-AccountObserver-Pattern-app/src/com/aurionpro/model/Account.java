@@ -71,6 +71,7 @@ public class Account {
 	}
 
 	public void registeredNotifier(INotifier notifier) {
+		if(notifiers.isEmpty())
 		notifiers.add(notifier);
 	}
 

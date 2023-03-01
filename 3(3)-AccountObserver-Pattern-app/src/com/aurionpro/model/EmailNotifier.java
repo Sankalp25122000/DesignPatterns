@@ -15,6 +15,12 @@ public class EmailNotifier implements INotifier {
 
 	}
 
+	@Override
+	public String toString() {
+		return "EmailNotifier";
+	}
+	
+
 
 
 }

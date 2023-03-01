@@ -17,6 +17,8 @@ public class AccountTest {
 		Account acc1 = new Account(2345,"Sameer",8000);
 		
 		acc1.registeredNotifier(new EmailNotifier());
+		acc1.registeredNotifier(new EmailNotifier());
+		acc1.registeredNotifier(new SmsNotifier());
 		acc1.deposit(2000);
 		System.out.println(acc1);
 
