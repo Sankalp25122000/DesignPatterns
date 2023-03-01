@@ -1,0 +1,11 @@
+package com.aurionpro.model;
+
+public class MahindraFactory implements ICarFactory {
+
+	@Override
+	public ICarFactory makeCar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

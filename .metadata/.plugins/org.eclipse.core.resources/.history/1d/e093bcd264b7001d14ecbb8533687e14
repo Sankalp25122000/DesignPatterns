@@ -1,0 +1,17 @@
+package com.aurionpro.test;
+
+import com.aurionpro.model.Account;
+import com.aurionpro.model.InsuffiecientException;
+import com.aurionpro.model.SmsNotifier;
+
+public class AccountTest {
+
+	public static void main(String[] args) throws InsuffiecientException {
+		Account acc = new Account(1234,"Sankalp",4000);
+		System.out.println(acc);
+		acc.withdraw(1000);
+		acc.registeredNotifier(new SmsNotifier());
+
+	}
+
+}

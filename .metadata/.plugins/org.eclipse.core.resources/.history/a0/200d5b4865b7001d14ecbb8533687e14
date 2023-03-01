@@ -1,0 +1,11 @@
+package com.aurionpro.model;
+
+public class EmailNotifier implements INotifier {
+
+	@Override
+	public void notiFyUser(Account account) {
+		System.out.println("Sending notificatio by email..");
+
+	}
+
+}

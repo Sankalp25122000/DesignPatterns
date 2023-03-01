@@ -1,0 +1,16 @@
+package com.aurionpro.model;
+
+public class DBDaoFactory implements IDaoAbstractFacotry {
+
+	@Override
+	public IDao createDao(String factoryType) {
+		if (factoryType.equalsIgnoreCase("xml")) {
+			return new XMLDaoFactory();
+		}
+		if (factoryType.equalsIgnoreCase("db")) {
+			return new DBDaoFactory();
+		}
+		return null;
+	}
+
+}

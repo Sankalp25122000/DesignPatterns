@@ -1,0 +1,8 @@
+package com.aurionpro.model;
+
+public class InsuffiecientException extends Exception {
+	public InsuffiecientException(String msg) {
+		System.out.println(msg);
+	}
+
+}

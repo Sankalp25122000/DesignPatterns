@@ -1,0 +1,19 @@
+package com.aurionpro.model;
+
+import java.util.List;
+
+public class Account {
+	private int accountNumber;
+	private String name;
+	private double balance;
+	private List<INotifier> notifiers;
+
+	public Account(int accountNumber, String name, double balance, List<INotifier> notifiers) {
+		super();
+		this.accountNumber = accountNumber;
+		this.name = name;
+		this.balance = balance;
+		this.notifiers = notifiers;
+	}
+
+}

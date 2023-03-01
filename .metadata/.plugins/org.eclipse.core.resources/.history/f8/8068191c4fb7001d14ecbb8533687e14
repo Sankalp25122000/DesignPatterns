@@ -1,0 +1,15 @@
+package com.aurionpro.model;
+
+public class DaoFactoryProducer {
+	private static DaoFactoryProducer daoFactoryProducer;
+
+	private DaoFactoryProducer() {
+
+	}
+	public IDaoAbstractFacotry produce (String factoryType) {
+		
+	}
+	
+	
+
+}

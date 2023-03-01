@@ -1,0 +1,15 @@
+package com.aurionpro.model;
+
+public class DBDaoFactory {
+
+	public IDaoAbstractFacotry produce(String factoryType) {
+		if (factoryType.equalsIgnoreCase("xml")) {
+			return new XMLDaoFactory();
+		}
+		if (factoryType.equalsIgnoreCase("db")) {
+			return new DBDaoFacotry();
+		}
+		return null;
+	}
+
+}

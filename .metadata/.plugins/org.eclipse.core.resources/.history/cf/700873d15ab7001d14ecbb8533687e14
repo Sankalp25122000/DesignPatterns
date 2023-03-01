@@ -1,0 +1,10 @@
+package com.aurionpro.model;
+
+public class LaptopBuilder {
+	private Laptop laptop;
+
+	private LaptopBuilder(Laptop laptop) {
+		this.laptop = new Laptop();
+	}
+
+}

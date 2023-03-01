@@ -1,0 +1,11 @@
+package com.aurionpro.model;
+
+public class XMLDaoFactory implements IDaoAbstractFacotry  {
+
+	@Override
+	public IDao createDao(String type) {
+		if(type.equalsIgnoreCase("employee") )
+		return null;
+	}
+
+}

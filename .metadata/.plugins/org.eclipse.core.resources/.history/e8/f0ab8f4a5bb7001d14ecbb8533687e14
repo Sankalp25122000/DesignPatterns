@@ -1,0 +1,34 @@
+package com.aurionpro.model;
+
+public class LaptopBuilder {
+	private Laptop laptop;
+
+	private LaptopBuilder(Laptop laptop) {
+		this.laptop = new Laptop();
+	}
+
+	public LaptopBuilder addRam(String ram) {
+		laptop.setRam(ram);
+		return this;
+
+	}
+
+	public LaptopBuilder addHdd(String hdd) {
+		laptop.setHdd(hdd);
+		return this;
+
+	}
+
+	public LaptopBuilder addKeyBoard(String keyBoard) {
+		laptop.setKeyBoard(keyBoard);
+		return this;
+
+	}
+	
+	public LaptopBuilder addhdd(String hdd) {
+		laptop.setHdd(hdd);
+		return this;
+
+	}
+
+}

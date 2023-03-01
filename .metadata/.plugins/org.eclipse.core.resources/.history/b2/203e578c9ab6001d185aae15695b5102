@@ -1,0 +1,11 @@
+package com.aurionpro.model;
+
+public class CarFactory {
+	public CarFactory() {
+		
+	}
+	public static ICars makeCars (CarType car) {
+		
+	}
+
+}

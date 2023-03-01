@@ -1,0 +1,11 @@
+package com.aurionpro.model;
+
+public class XMLDaoFactory implements IDaoAbstractFacotry {
+
+	@Override
+	public IDao create(String type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

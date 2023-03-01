@@ -1,0 +1,11 @@
+package com.aurionpro.model;
+
+public class DBDaoFactory implements IDao {
+
+	@Override
+	public void save() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

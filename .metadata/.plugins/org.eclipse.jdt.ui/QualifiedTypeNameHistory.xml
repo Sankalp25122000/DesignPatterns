@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.aurionpro.model.Singleton"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.ICarFactory"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.MarutiFactory"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.ICars"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.TataFactory"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.MahindraFactory"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.IDaoAbstractFacotry"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.DBDaoFactory"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.XMLDepDao"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.XMLDaoFactory"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.DaoFactoryProducer"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.IDaoAbstractFactory"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.IDao"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.LaptopBuilder"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Laptop"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Account"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.SmsNotifier"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.EmailNotifier"/>
+</qualifiedTypeNameHistroy>

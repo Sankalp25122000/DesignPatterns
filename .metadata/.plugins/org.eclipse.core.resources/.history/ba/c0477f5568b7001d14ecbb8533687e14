@@ -1,0 +1,7 @@
+package com.aurionpro.model;
+
+public interface INotifier {
+	void notiFyUser(Account account);
+	void change(double amount,String transactionType);
+
+}

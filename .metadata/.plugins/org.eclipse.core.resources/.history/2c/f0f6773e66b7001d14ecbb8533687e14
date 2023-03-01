@@ -1,0 +1,13 @@
+package com.aurionpro.model;
+
+public class WhatsappNotifier implements INotifier {
+
+	@Override
+	public void notiFyUser(Account account) {
+		System.out.println("Sending notification by whataspp..");
+		System.out.println(account);
+		System.out.println("------------------------------");
+
+	}
+
+}

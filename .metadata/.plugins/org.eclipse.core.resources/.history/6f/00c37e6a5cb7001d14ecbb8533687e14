@@ -1,0 +1,15 @@
+package com.aurionpro.test;
+
+import com.aurionpro.model.LaptopBuilder;
+
+public class LaptopTest {
+
+	public static void main(String[] args) {
+		LaptopBuilder builder = new LaptopBuilder();
+		LaptopBuilder addRam = builder.addHdd("SSD").addKeyBoard("Zebronics").addMouse("Logitech").addTouchScreen(true).addRam("LPDD");
+		System.out.println(addRam);
+		
+
+	}
+
+}
